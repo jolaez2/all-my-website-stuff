@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>box model</title>
+</head>
+
+    <style>
+body {
+  background-image: url('data:image/jpeg;base64,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');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+
+</style>
+    <body>
+        <h1 style="text-align: center;">Ivan Cornejo </h1>
+        <h2 style="text-align: center;">Jennyfer Olaez</h2>
+    </body>
+    <head>
+        <title>M</title>
+        <style>
+            table, th, td {
+                border: 3px solid rgb(255, 255, 255);
+                border-collapse: collapse;
+                padding: 18px;px;
+            }
+        </style>
+        </head>
+        <body>
+<div style="display: grid; justify-items: center;">
+<table>
+<tr>
+   <th>Month</th>
+   <th>Songs</th>
+   </tr>
+   <tr style="height: 130px;">
+   <td> August 2</td>
+   <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/song/best-part-feat-h-e-r/1799080776"></iframe>
+   </tr>
+   <tr style="height: 130px;">
+   <td>October 21,2016</td>
+   <td><iframe  allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/song/japanese-denim/1799080619"></iframe>>
+   </tr>
+   <tr style="height:130px;">
+   <td>April 7,2023</td>
+   <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/song/superpowers/1671667306"></iframe>
+   </tr>
+   <tr style="height: 130px;">
+   <td>February 14,2025</td>
+   <td><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="371" style="width:100%;max-width:600px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/music-video/aqu%C3%AD-te-espero/1699661334"></iframe>

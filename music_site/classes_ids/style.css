@@ -1,0 +1,39 @@
+.city {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#london {
+    font-size: 20px;
+    font-weight: bold;
+    background-color:plum
+}
+
+#paris {
+    font-size: 20px;
+    font-weight: bold;
+    background-color:plum
+}
+
+#tokyo {
+    font-size: 20px;
+    font-weight: bold;
+    background-color:plum
+}
+
+body {
+    background-color:lavender
+
+}
+
+.img-container {
+  width: 110px;  /* Set the container to a square size */
+  height: 110px;
+  border-radius: 50%; /* Rounds the container */
+  overflow: hidden;   /* Hides any part of the image that goes outside the circle */
+}
+
+.img-container img {
+  width: 100%;       /* Image fills the container width */
+  height: 100%;      /* Image fills the container height */
+  object-fit: cover; /* Ensures the image covers the area without distortion, cropping as needed */
+}  
