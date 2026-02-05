@@ -1,0 +1,7 @@
+.card{
+    text-align:center;
+    background-color: mistyrose;
+    height:300px;
+    width: 250px;
+    border-image-width: auto;
+}
